@@ -6,6 +6,15 @@
   "background": {
     "service_worker": "background.js"
   },
+  "commands": {
+    "start-running": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      },
+      "description": "Run on the current page"
+    }
+  },
   "options_page": "options.html",
   "permissions": ["storage", "activeTab", "scripting"],
   "action": {
